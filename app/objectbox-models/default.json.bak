@@ -19,6 +19,18 @@
         {
           "id": "3:5274438353732289020",
           "name": "nomeFantasia"
+        },
+        {
+          "id": "4:3931060170989119690",
+          "name": "cidade"
+        },
+        {
+          "id": "5:7844591898198265511",
+          "name": "estado"
+        },
+        {
+          "id": "6:4486305099577691478",
+          "name": "segmento"
         }
       ],
       "relations": []
@@ -32,11 +44,7 @@
   "modelVersionParserMinimum": 4,
   "retiredEntityUids": [],
   "retiredIndexUids": [],
-  "retiredPropertyUids": [
-    3931060170989119690,
-    7844591898198265511,
-    4486305099577691478
-  ],
+  "retiredPropertyUids": [],
   "retiredRelationUids": [],
   "version": 1
 }
