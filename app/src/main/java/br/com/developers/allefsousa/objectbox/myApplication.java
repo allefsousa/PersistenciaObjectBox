@@ -19,13 +19,13 @@ public class myApplication extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
-
-
+        // inicializando Object box
         boxStore = MyObjectBox.builder().androidContext(myApplication.this).build();
         new AndroidObjectBrowser(boxStore).start(this);
-
-
-
+    }
+    // construtor para retornar a instacia do objeto;
+    public BoxStore getBoxStore() {
+        return boxStore;
     }
 
 }
