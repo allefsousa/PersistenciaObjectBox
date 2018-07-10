@@ -2,6 +2,12 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="br.com.developers.allefsousa.objectbox">
 
+    <!-- Para ObjectBox local -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <!-- Para Object Browser -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
         android:name=".myApplication"
         android:allowBackup="true"
